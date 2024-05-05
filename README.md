@@ -1,0 +1,10 @@
+# N-Queens Problem Solutions
+This repository contains implementations of different algorithms to solve the N-Queens problem, where the challenge is to place N queens on an NxN chessboard such that no two queens threaten each other. The solutions provided here demonstrate the application of various algorithmic techniques including backtracking, genetic algorithms, and hill climbing.
+
+Files in the Repository
+Backtrack.py: This script implements the backtracking algorithm to solve the N-Queens problem. Backtracking is a recursive method to solve problems systematically by trying to build a solution incrementally, one piece at a time, removing solutions that fail to satisfy the constraints of the problem at any point of time (by backtracking).
+GeneticAlgorithm.py: Implements a genetic algorithm to find a solution to the N-Queens problem. Genetic algorithms are search heuristics that mimic the process of natural selection, using techniques such as inheritance, mutation, selection, and crossover to generate solutions to optimization and search problems.
+Main.py: This is the main driver script that can be used to run the algorithms. It allows users to choose which algorithm to execute and displays the resulting chess board configuration for the N-Queens solution.
+RRHillClimb.py: This script provides an implementation of the randomized restart hill climbing algorithm. Hill climbing is an optimization algorithm that starts with an arbitrary solution to a problem and attempts to find a better solution by incrementally changing a single element of the solution.
+chromosome.py: Used by the GeneticAlgorithm.py script, this file defines the Chromosome class, which is used to represent a candidate solution (individual) in the genetic algorithm.
+requirements.txt: Contains a list of Python packages that need to be installed to run the scripts successfully. This file is useful for setting up the environment quickly by using pip install -r requirements.txt.
